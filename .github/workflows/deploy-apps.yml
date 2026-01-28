@@ -25,10 +25,10 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install pipdeptree
         run: pip install pipdeptree
+      - name: Show dependency tree
+        run: pipdeptree | grep -i statistics
       - name: Install dependencies (verbose)
         run: pip install -r usda_fns_ingestor/requirements.txt --verbose
-      - name: Show dependency tree
-        run: pipdeptree
       - name: Deploy to cloud.gov
         uses: 18f/cg-deploy-action@main
         with:

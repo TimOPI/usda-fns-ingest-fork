@@ -1,6 +1,7 @@
 ---
 name: Deploy apps to cloud.gov
 on:
+  workflow_dispatch: null
   workflow_call:
     inputs:
       environment:

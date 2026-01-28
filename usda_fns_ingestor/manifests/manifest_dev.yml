@@ -1,12 +1,12 @@
 ---
 applications:
-- name: usda-fns-ingestor
+- name: usda-fns-ingestor-temp
   stack: cflinuxfs4
   buildpack: python_buildpack
   memory: 512mb
   path: ../
   routes:
-    - route: usda-dvs-dev.app.cloud.gov
+    - route: usda-dvs-dev-temp.app.cloud.gov
   instances: 1
   services:
    - usda-fns-ingestor-db

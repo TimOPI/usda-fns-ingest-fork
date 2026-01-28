@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     # If you set up envirionments use this, I am hard coding for example
     # environment: ${{ inputs.environment }}
+    environment: dev
     # env:
     #   space: ${{ inputs.environment }}
     env:

@@ -19,6 +19,7 @@ jobs:
     #   space: ${{ inputs.environment }}
     env:
       space: dev
+      CF_TRACE: true
 
     steps:
       - uses: actions/checkout@v2

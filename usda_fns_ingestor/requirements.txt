@@ -56,7 +56,7 @@ sqlparse==0.4.4
 tableschema>=1.20.2
 tabulator>=1.53.5
 typing_extensions==4.8.0
-unicodecsv>0.14.1
+unicodecsv>=0.14.1
 urllib3==1.26.16
 virtualenv==20.24.5
 whitenoise==6.5.0

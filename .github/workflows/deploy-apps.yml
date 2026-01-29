@@ -30,7 +30,7 @@ jobs:
       - name: Show dependency tree
         run: pipdeptree | grep -i statistics        
       - name: Deploy to cloud.gov
-        uses: 18f/cg-deploy-action@main
+        uses: cloud-gov/cg-cli-tools@main
         with:
           cf_username: ${{ secrets.CF_USERNAME }}
           cf_password: ${{ secrets.CF_PASSWORD }}

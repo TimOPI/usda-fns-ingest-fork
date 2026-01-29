@@ -36,4 +36,4 @@ jobs:
           cf_password: ${{ secrets.CF_PASSWORD }}
           cf_org: usda-fns
           cf_space: ${{ env.space }}
-          cf_manifest: -f --manifest usda_fns_ingestor/manifests/manifest_${{ env.space }}.yml
+          cf_manifest: -f usda_fns_ingestor/manifests/manifest_${{ env.space }}.yml

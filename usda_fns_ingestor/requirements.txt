@@ -32,7 +32,7 @@ jsonlines==4.0.0
 jsonpointer==2.4
 jsonschema==4.19.1
 jsonschema-specifications==2023.7.1
-linear-tsv==1.1.0
+linear-tsv>1.1.0
 openpyxl==3.1.2
 orderedmultidict==1.0.1
 packaging==23.1
@@ -56,10 +56,11 @@ sqlparse==0.4.4
 tableschema>=1.20.2
 tabulator>=1.53.5
 typing_extensions==4.8.0
-unicodecsv==0.14.1
+unicodecsv>0.14.1
 urllib3==1.26.16
 virtualenv==20.24.5
 whitenoise==6.5.0
 xlrd==2.0.1
 zope.event==5.0
 zope.interface==6.0
+frictionless>=5
